@@ -28,8 +28,9 @@ const corsOptions = {
         'https://*.vercel.app',
         /https:\/\/.*\.vercel\.app$/,
         // TODO: Add your actual production URLs here:
-        // 'https://your-frontend-url.vercel.app',
-        // 'https://your-admin-url.vercel.app'
+        // 'https://doctor-frontend-xyz.vercel.app',
+        // 'https://doctor-admin-xyz.vercel.app'
+        // Replace the URLs above with your actual Vercel deployment URLs
     ],
     credentials: true,
     optionsSuccessStatus: 200

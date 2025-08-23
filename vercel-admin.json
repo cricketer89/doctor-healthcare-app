@@ -1,22 +1,22 @@
 {
-  "version": 2,
-  "name": "doctor-admin",
-  "builds": [
-    {
-      "src": "admin/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "admin/dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/admin/dist/index.html"
-    }
-  ],
-  "installCommand": "cd admin && npm install",
-  "buildCommand": "cd admin && npm run build", 
-  "outputDirectory": "admin/dist"
+    "version": 2,
+    "name": "doctor-admin",
+    "builds": [
+        {
+            "src": "admin/package.json",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "admin/dist"
+            }
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/admin/dist/index.html"
+        }
+    ],
+    "installCommand": "cd admin && npm install",
+    "buildCommand": "cd admin && npm run build",
+    "outputDirectory": "admin/dist"
 }
