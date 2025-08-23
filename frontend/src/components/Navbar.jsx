@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div className='flex items-center gap-4'>
                     {/* Admin Panel Button */}
                     <a
-                        href='http://localhost:5177'
+                        href='https://doctor-healthcare-app-admin.vercel.app'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-6 py-2.5 rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 hover:scale-105 glow-effect flex items-center gap-2 text-sm'
@@ -96,7 +96,7 @@ const Navbar = () => {
                             <NavLink onClick={() => setShowMenu(false)} to='/contact'><p className='px-4 py-3 rounded-lg hover:bg-gradient-to-r hover:from-primary/20 hover:to-secondary/20 transition-all duration-300 w-full text-center'>CONTACT</p></NavLink>
                             {/* Mobile Admin Panel Button */}
                             <a
-                                href='http://localhost:5177'
+                                href='https://doctor-healthcare-app-admin.vercel.app'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 onClick={() => setShowMenu(false)}

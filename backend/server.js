@@ -27,10 +27,10 @@ const corsOptions = {
         'http://localhost:5177',
         'https://*.vercel.app',
         /https:\/\/.*\.vercel\.app$/,
-        // TODO: Add your actual production URLs here:
-        // 'https://doctor-frontend-xyz.vercel.app',
-        // 'https://doctor-admin-xyz.vercel.app'
-        // Replace the URLs above with your actual Vercel deployment URLs
+        // Production URLs
+        'https://doctor-healthcare-app-admin.vercel.app',
+        'https://doctor-healthcare-app-frontend-d9h2-gjiajtl0t.vercel.app',
+        'https://doctor-healthcare-app-frontend-43emne08m-anshul098yus-projects.vercel.app'
     ],
     credentials: true,
     optionsSuccessStatus: 200
