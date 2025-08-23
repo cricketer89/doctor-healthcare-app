@@ -29,9 +29,7 @@ const corsOptions = {
         /https:\/\/.*\.vercel\.app$/,
         // Production URLs
         'https://doctor-healthcare-app-admin.vercel.app',
-        'https://doctor-healthcare-app-frontend-d9h2.vercel.app',
-        'https://doctor-healthcare-app-frontend-d9h2-gjiajtl0t.vercel.app',
-        'https://doctor-healthcare-app-frontend-43emne08m-anshul098yus-projects.vercel.app'
+        'https://doctor-healthcare-app-frontend-d9h2.vercel.app'
     ],
     credentials: true,
     optionsSuccessStatus: 200
