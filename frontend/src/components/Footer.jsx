@@ -50,7 +50,7 @@ const Footer = () => {
                     <ul className='flex flex-col gap-3 text-text-secondary'>
                         <li className='flex items-center gap-2'>
                             <span className='text-primary'>📞</span>
-                            <a href="tel:+916205474281" className='hover:text-primary transition-colors duration-200'>
+                            <a href="tel:+918825222647" className='hover:text-primary transition-colors duration-200'>
                                 (+91) 8825222647
                             </a>
                         </li>
