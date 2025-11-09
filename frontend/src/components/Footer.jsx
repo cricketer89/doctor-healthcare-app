@@ -51,13 +51,13 @@ const Footer = () => {
                         <li className='flex items-center gap-2'>
                             <span className='text-primary'>📞</span>
                             <a href="tel:+916205474281" className='hover:text-primary transition-colors duration-200'>
-                                (+91) 6205474281
+                                (+91) 8825222647
                             </a>
                         </li>
                         <li className='flex items-center gap-2'>
                             <span className='text-primary'>✉️</span>
-                            <a href="mailto:anshulraj6205474281@gmail.com" className='hover:text-primary transition-colors duration-200'>
-                                anshulraj6205474281@gmail.com
+                            <a href="mailto:pawanguptaa@gmail.com" className='hover:text-primary transition-colors duration-200'>
+                                pawanguptaa@gmail.com
                             </a>
                         </li>
                         <li className='flex items-start gap-2'>
